@@ -1,0 +1,18 @@
+header{
+    background-color: azure;/*cor de fundo*/
+    color: aquamarine;/*cor da fonte*/
+    text-align: center;/*centraliza o texto horizontalmente*/
+    max-width: 800px;/*define a largura maxima que o elemento pode ter*/
+    margin: 0 auto;/*centraliza o bloco inteiro na tela*/
+    padding: 16px;/*espaço interno entre a borda e o conteúdo*/
+}
+
+h1{color: brown;
+}
+
+main{background-color: blue;
+color: #09787c;
+max-width: 800xp;
+margin: 0 auto;
+padding: 16px;
+}
