@@ -1,20 +1,60 @@
-header{
-    background-color: azure;/*cor de fundo*/
-    color: aquamarine;/*cor da fonte*/
-    text-align: center;/*centraliza o texto horizontalmente*/
-    max-width: 800px;/*define a largura maxima que o elemento pode ter*/
-    margin: 0 auto;/*centraliza o bloco inteiro na tela*/
-    padding: 16px;/*espaço interno entre a borda e o conteúdo*/
+body {
+    font-family: Arial, Helvetica, sans-serif; /* fonte universal herdada por todo site */
+    margin: 0;                                 /* remove margins normal do computador */
+    padding: 0;
 }
 
-main{background-color: blue;
-color: #09787c;
-max-width: 800xp;
-margin: 0 auto;
-padding: 16px;
+
+
+header {
+    background-color: rgb(152, 240, 130); /* cor de fundo */
+    color: rgb(180, 231, 112); /* cor da fonte */
+    text-align: center; /* centraliza o texto horizontalmente */
+    max-width: 800px; /* define a largura máxima que o elemento pode ter */
+    margin: 0 auto; /* centraliza o bloco inteiro na tela */
+    padding: 16px; /* espaçamento interno entre a borda e o conteúdo */
 }
 
-img {
-    width: 80px;
-    height: 80px;
+h1{
+    color: #e7270d;
+}
+
+main {
+    background-color: rgb(65, 48, 75);
+    color: #8f056c;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+article {
+    display: flex;
+    margin-bottom: 60px; /* empurra o artigo de baixo, criando o espaço */
+}
+
+img{
+    width: 150px; /* define a largura fixa da imagem */
+    height: 150px; /* define a largura fixa da imagem */
+    border: 2px solid #30257a; /* adiciona uma borda sólida de 2px na cor azul/roxa */
+    display: block; /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
+    margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
+    align-self: center;
+}
+
+.artigo-autor {
+    font-weight: bold; /* deixa o texto em negrito */
+}
+
+.texto-curto {
+    max-width: 65ch; /* limita a linha a cerca de 45 caracteres*/
+}
+
+footer {
+    background-color: #9560c7; /* mesma cor escura do header para combinar */
+    color: rgb(92, 55, 6);      /* cor da fonte branca para dar contraste e leitura */
+    text-align: center;        /* centraliza o texto horizontalmente */
+    max-width: 800px;         /* mantém o msm alinhamento do header e do main */
+    margin: 0 auto;          /* centraliza o bloco inteiro na tela */
+    padding: 20px;          /* cria um espaçamento inteiro para o fundo aparecer bem */
+    font-size: 14px; /* deixa o texto do rodapé um pouco menor e descreto */ 
 }
