@@ -7,8 +7,8 @@ body {
 
 
 header {
-    background-color: rgb(152, 240, 130); /* cor de fundo */
-    color: rgb(180, 231, 112); /* cor da fonte */
+    background-color: rgb(79, 125, 224); /* cor de fundo */
+    color: rgb(24, 153, 204); /* cor da fonte */
     text-align: center; /* centraliza o texto horizontalmente */
     max-width: 800px; /* define a largura máxima que o elemento pode ter */
     margin: 0 auto; /* centraliza o bloco inteiro na tela */
@@ -16,12 +16,12 @@ header {
 }
 
 h1{
-    color: #e7270d;
+    color: #090786;
 }
 
 main {
-    background-color: rgb(65, 48, 75);
-    color: #8f056c;
+    background-color: rgb(110, 28, 243);
+    color: #356de6;
     max-width: 800px;
     margin: 0 auto;
     padding: 16px;
@@ -35,7 +35,7 @@ article {
 img{
     width: 150px; /* define a largura fixa da imagem */
     height: 150px; /* define a largura fixa da imagem */
-    border: 2px solid #30257a; /* adiciona uma borda sólida de 2px na cor azul/roxa */
+    border: 2px solid #8fd2f8; /* adiciona uma borda sólida de 2px na cor azul/roxa */
     display: block; /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
     margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
     align-self: center;
@@ -50,8 +50,8 @@ img{
 }
 
 footer {
-    background-color: #9560c7; /* mesma cor escura do header para combinar */
-    color: rgb(92, 55, 6);      /* cor da fonte branca para dar contraste e leitura */
+    background-color: #1a9db4; /* mesma cor escura do header para combinar */
+    color: rgb(20, 63, 182);      /* cor da fonte branca para dar contraste e leitura */
     text-align: center;        /* centraliza o texto horizontalmente */
     max-width: 800px;         /* mantém o msm alinhamento do header e do main */
     margin: 0 auto;          /* centraliza o bloco inteiro na tela */
